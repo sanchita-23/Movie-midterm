@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midterm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>TMDB Movies</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-button">Search</button>
+        </div>
+    </nav>
+    <header>
+        <div class="banner">
+            <h2>Welcome to TMDB Movies</h2>
+        </div>
+    </header>
+    <main>
+        <section id="search-results" class="hidden">
+            <h2>Search Results</h2>
+            <div class="movie-row" id="search-grid"></div>
+        </section>
+        <section id="recent-movies">
+            <h2>Recent Movies</h2>
+            <div class="movie-row" id="recent-grid"></div>
+        </section>
+        <section id="popular-movies">
+            <h2>Popular Movies</h2>
+            <div class="movie-row" id="popular-grid"></div>
+        </section>
+        <section id="top-rated-movies">
+            <h2>Top Rated Movies</h2>
+            <div class="movie-row" id="top-rated-grid"></div>
+        </section>
+        <section id="upcoming-movies">
+            <h2>Upcoming Movies</h2>
+            <div class="movie-row" id="upcoming-grid"></div>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <img src="https://d23.com/app/uploads/2017/10/780w-463h_101317_movies-anywhere-1-768x456.jpg" alt="Watch Everywhere">
+                    <h3>Watch Everywhere</h3>
+                    <p>Stream on your phone, tablet, laptop, and TV without paying more.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://robots.net/wp-content/uploads/2023/09/how-to-download-movies-for-free-to-watch-offline-1695198654.jpg" alt="Download Shows to Watch Offline">
+                    <h3>Download Shows to Watch Offline</h3>
+                    <p>Save your favorites easily and always have something to watch.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+ <script src="movie.js"></script>
+</body>
+</html>
